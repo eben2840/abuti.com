@@ -2069,6 +2069,7 @@ section {
   margin-bottom: 10px;
 }
 
+
 .recent-posts .title {
   font-size: 20px;
   font-weight: 600;
@@ -2533,6 +2534,7 @@ section {
 
 .blog .posts-list article:hover {
   box-shadow: 0 4px 16px rgba(var(--default-color-rgb), 0.1);
+  background-color: #fff;
 }
 
 .blog .posts-list .post-img {
@@ -2622,7 +2624,9 @@ section {
 .blog-details .article {
   box-shadow: 0 4px 16px rgba(var(--default-color-rgb), 0.1);
   padding: 30px;
+
 }
+
 
 .blog-details .post-img {
   margin: -30px -30px 20px -30px;

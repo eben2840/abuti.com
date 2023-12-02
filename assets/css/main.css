@@ -1357,7 +1357,7 @@ section {
 /* Features Section - Home Page
 ------------------------------*/
 .features .features-item {
-  background-image: url("https://img.freepik.com/premium-vector/seamless-pattern-abstract-background-with-futuristic-style-use-business-cover-banner_7505-1820.jpg");
+  background-color: #fff;
   color: rgba(var(--default-color-rgb), 0.8);
   padding:20px;
 }
