@@ -2532,6 +2532,51 @@ section {
   overflow: hidden;
 }
 
+
+.abouti{
+  margin: 0; /* Remove default body margin */
+  background-image: url("https://img.freepik.com/premium-vector/seamless-pattern-abstract-background-with-futuristic-style-use-business-cover-banner_7505-1820.jpg");
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; Make sure the body covers the entire viewport */
+  position: relative;
+}
+
+
+.image{
+  flex: 1;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.image-container {
+  position: relative;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Adjust the height as needed */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  border-radius: 20px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
 .blog .posts-list article:hover {
   box-shadow: 0 4px 16px rgba(var(--default-color-rgb), 0.1);
   background-color: #fff;
