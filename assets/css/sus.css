@@ -2526,7 +2526,8 @@ section {
 /* Blog Section - Blog Page
 ------------------------------*/
 .blog{
-  background-color: #e1e4e4;
+  background-image: url("assets/img/hom.png")
+
 }
 .blog .posts-list article {
   background-color: #fff;
