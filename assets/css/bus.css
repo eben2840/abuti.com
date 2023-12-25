@@ -23,7 +23,7 @@
   --background-color-rgb: 255, 255, 255;
   --default-color: rgb(8, 8, 76);
   --default-color-rgb: 33, 37, 41;
-  --primary-color: #e84545;
+  --primary-color: #e13d18;
   --primary-color-rgb: 232, 69, 69;
   --secondary-color: rgb(8, 8, 76);
   --secondary-color-rgb: 50, 53, 58;
@@ -232,7 +232,7 @@ section {
   --background-color: #ffffff;
   --secondary-color: #444444;
   --nav-color: #444444;
-  --nav-hover-color: #e84545;
+  --nav-hover-color: #e13d18;
   box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -615,7 +615,7 @@ section {
 /* Mobile Navigation */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
-    color: #e84545;
+    color: #e13d18;
     font-size: 30px;
     line-height: 0;
     margin-right: 10px;
