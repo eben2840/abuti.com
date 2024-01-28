@@ -457,6 +457,7 @@ section {
   
 }
 .highlights{ 
+  outline:none;
  background-color:rgb(210, 55, 83);
  width:250px;
    color:#fff;
