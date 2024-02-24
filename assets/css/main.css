@@ -316,13 +316,23 @@ section {
 #hero h2 {
   color: #fff;
   margin: 0;
-  font-size: 48px;
+  text-align: center;
+  font-size: 68px;
   font-weight: 700;
 }
 
 #hero p {
   animation-delay: 0.4s;
   color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#hero h3 {
+  animation-delay: 0.4s;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
   margin-top: 10px;
 }
 
@@ -1102,7 +1112,7 @@ section {
 /* Clients Section - Home Page
 ------------------------------*/
 .clients {
-  background-color: #d5d0d0;
+  background-color: #fff;
   padding: 10px 0;
 }
 
@@ -1135,8 +1145,8 @@ section {
 /* About Section - Home Page
 ------------------------------*/
 .about {
-  --background-color: #000;
-  background-image: url("https://img.freepik.com/premium-vector/seamless-pattern-abstract-background-with-futuristic-style-use-business-cover-banner_7505-1820.jpg")
+ 
+  background-image: url("")
 }
 
 .about .content h3 {
@@ -1272,7 +1282,7 @@ section {
 
 .stats .container {
   position: relative;
-
+  height:400px;
   z-index: 3;
 }
 
@@ -1973,7 +1983,7 @@ section {
 /* Testimonials Section - Home Page
 ------------------------------*/
 .testimonials {
-  background-image: url("https://img.freepik.com/premium-vector/seamless-pattern-abstract-background-with-futuristic-style-use-business-cover-banner_7505-1820.jpg");
+  background-image: url("");
  
 }
 
@@ -3327,4 +3337,110 @@ section {
 	}
 	
 	
+}
+
+
+
+
+
+
+/* Testimonials Section - Home Page
+------------------------------*/
+.testimonial {
+  background-image: url("");
+ 
+}
+
+.testimonial .info h3 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.testimonial .swiper {
+ 
+ 
+}
+
+.testimonial .testimonial-carousel,
+.testimonial .testimonial-slider {
+  overflow: hidden;
+}
+
+.testimonial .testimonial-item {
+  box-sizing: content-box;
+  /* background-color: #fff; */
+  min-height: 150px;
+  position: relative;
+  margin: 30px;
+}
+
+.testimonial .testimonial-item .testimonial-img {
+  width: 400px;
+  height: 300px;
+  object-fit:cover;
+}
+
+
+
+
+
+
+.testimonial .testimonial-item .quote-icon-left,
+.testimonial .testimonial-item .quote-icon-right {
+  color: rgba(var(--primary-color-rgb), 0.4);
+  font-size: 26px;
+  line-height: 0;
+}
+
+.testimonial .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.testimonial .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+  transform: scale(-1, -1);
+}
+
+.testimonial .testimonial-item p {
+  font-style: italic;
+  margin: 15px auto 15px auto;
+}
+
+.testimonial .swiper-wrapper {
+  height: auto;
+}
+
+.testimonial .swiper-pagination {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.testimonial .swiper-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(var(--default-color-rgb), 0.15);
+  opacity: 1;
+  border: none;
+}
+
+.testimonial .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--primary-color);
+}
+
+@media (max-width: 767px) {
+
+  .testimonial .testimonial-carousel,
+  .testimonial .testimonial-slider {
+    overflow: hidden;
+  }
+
+  .testimonial .testimonial-item {
+    margin: 15px;
+  }
 }
