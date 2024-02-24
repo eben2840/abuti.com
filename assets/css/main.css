@@ -1983,7 +1983,7 @@ section {
 /* Testimonials Section - Home Page
 ------------------------------*/
 .testimonials {
-  background-image: url("");
+  background: linear-gradient(to right, #261e5a, #030644);
  
 }
 
