@@ -848,48 +848,6 @@ section {
   animation: animate-preloader-2 0.6s infinite;
 }
 
-<<<<<<< HEAD
-
-.clients {
-  overflow: hidden; /* Ensures content stays within the section bounds */
-  position: relative;
-}
-
-.logo-slider {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-}
-
-.slider-track {
-  display: flex;
-  gap: 30px; /* Space between logos */
-  animation: scroll 15s linear infinite;
-  width: max-content; /* Ensures the track adjusts to its content size */
-}
-
-.client-logo {
-  flex: 0 0 auto;
-  width: 250px; /* Adjust the width of each logo */
-}
-
-.client-logo img {
-  width: 100%; /* Ensure images scale properly */
-  height: auto;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
-
-=======
->>>>>>> e0ddc5db7a1bf129f2a5dc391bfa203c32a9687d
 #preloader div:nth-child(3) {
   left: calc(50% + 32px);
   animation: animate-preloader-2 0.6s infinite;
