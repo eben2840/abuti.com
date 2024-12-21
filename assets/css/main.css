@@ -848,6 +848,7 @@ section {
   animation: animate-preloader-2 0.6s infinite;
 }
 
+<<<<<<< HEAD
 
 .clients {
   overflow: hidden; /* Ensures content stays within the section bounds */
@@ -887,6 +888,8 @@ section {
 }
 
 
+=======
+>>>>>>> e0ddc5db7a1bf129f2a5dc391bfa203c32a9687d
 #preloader div:nth-child(3) {
   left: calc(50% + 32px);
   animation: animate-preloader-2 0.6s infinite;
